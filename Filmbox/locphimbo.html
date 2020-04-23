@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FilmBox - Everytime Is Showtime</title>
+    <!-- logo -->
+    <link rel="icon" href="https://i.imgur.com/yWOXyYA.png">
+    <!-- css filter -->
+    <link rel="stylesheet" href="filter.css">
+    <!-- font montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700i,800i,900i&amp;display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!-- animate -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body>
+    <header class="position-relative">
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <button class="nut1">
+                                <a class="" href="Home.html">Home</a> 
+                            </button>
+                            <button class="nut1">
+                                <a class="" href="news-cine.html">News</a> 
+                            </button>
+                            <button class="nut1">
+                                <a class="" href="review.html">Film Reviews</a> 
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- top header end -->
+            <div class="navigation">
+                <div class="container">
+                    <div class="row">
+    
+                        <div class="col-2 logo">
+                            <a href="Home.html">
+                                <img src="images/logo-02.png" alt="">
+                            </a> 
+                        </div>
+                        
+                        <div class="col-5 menu">
+                            <a href="filter.html">Phim lẻ</a>
+                            <a class="active" href="locphimbo.html">Phim bộ</a>
+                            <a href="loctv.html">TV Show</a>
+                            <a href="mylist.html">Phim của tôi</a>
+                        </div>
+                            
+                        <div class="col search">
+                            <i class="fa fa-search"></i>
+                            <input type="text" id="myInput" value="" onkeyup="myFunction()" class="form-control" placeholder="Tên phim, diễn viên..." aria-label="Tên phim, diễn viên..." aria-describedby="basic-addon1">
+                            
+                        </div>
+                        
+                        <div class="col profile">
+                            <a href="canhan.html" class="ava">
+                                <img src="images/a1.jpg" alt="">
+                            </a>                     
+                            <a href="canhan.html">Đ. Huyền</a>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+                    </div>
+        
+                </div>
+                
+            </div>
+            <!-- navigation end -->
+        </header>
+        <!-- header end -->
+    <div class="textloc">
+        <div class="container">
+            <div class="row timkiem">
+                <div class="col">
+                  <p class="kq">Phim bộ</p>
+                  <p class="soluong">Phim truyền hình, phim dài tập, web drama hay nhất, cập nhật theo từng phút từng giờ.</p>  
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="boloc">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <select class="sx sx1">
+                        <option class="loc">Sắp xếp</option>
+                        <option class="loc">Mới cập nhật</option>
+                        <option class="loc">Tên phim</option>
+                        <option class="loc">Lượt xem</option>
+                    </select>
+                    <select class="sx theloai">
+                        <option class="loc">Thể loại</option>
+                        <option class="loc">Hành động - Phiêu lưu</option>
+                        <option class="loc">Hình sự - Tội phạm</option>
+                        <option class="loc">Khoa học viễn tưởng</option>
+                        <option class="loc">Kinh dị</option>
+                        <option class="loc">Lịch sử - Cổ trang</option>
+                        <option class="loc">Siêu nhiên - Huyền Bí</option>
+                        <option class="loc">Tâm lý</option>
+                        <option class="loc">Tình cảm - Lãng mạn</option>
+                    </select>
+                    <select class="sx country">
+                        <option class="loc">Quốc gia</option>
+                        <option class="loc">Việt Nam</option>
+                        <option class="loc">Âu - Mỹ</option>
+                        <option class="loc">Hàn Quốc</option>
+                        <option class="loc">Nhật Bản</option>
+                        <option class="loc">Thái Lan</option>
+                        <option class="loc">Trung Quốc</option>
+                    </select>
+                    <select class="sx namsx">
+                        <option class="loc">Năm</option>
+                        <option class="loc">2018</option>
+                        <option class="loc">2017</option>
+                        <option class="loc">2016</option>
+                        <option class="loc">2015</option>
+                        <option class="loc">2014</option>
+                        <option class="loc">2013</option>
+                        <option class="loc">2012</option>
+                        <option class="loc">2011</option>
+                        <option class="loc">2010</option>
+                        <option class="loc">2009</option>
+                        <option class="loc">2008</option>
+                        <option class="loc">2007</option>
+                        <option class="loc">2006</option>
+                        <option class="loc">2005</option>
+                        <option class="loc">2004</option>
+                        <option class="loc">2003</option>
+                        <option class="loc">2002</option>
+                        <option class="loc">2001</option>
+                        <option class="loc">2000</option>
+                        <option class="loc">Trước 2000</option>
+                    </select>
+                    <button class="cf">LỌC PHIM</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dsphim">
+        <div class="container">
+            <div class="row ds1 wow fadeInUp">
+                <div class="col xemphim">
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/b1.jpg" alt="">
+                        </div>
+                        <div class="lay2">HẸN ƯỚC</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/b2.jpg" alt="">
+                        </div>
+                        <div class="lay2">BORUTO</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/b3.jpg" alt="">
+                        </div>
+                        <div class="lay2">MẬT VỤ ĐEN</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/b4.jpg" alt="">
+                        </div>
+                        <div class="lay2">VỊ HOÀNG HẬU</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/b5.jpg" alt="">
+                        </div>
+                        <div class="lay2">ANH VÀ EM</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ds1 wow fadeInUp">
+                <div class="col xemphim">
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/b6.jpg" alt="">
+                        </div>
+                        <div class="lay2">BABY STEPS</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/b7.jpg" alt="">
+                        </div>
+                        <div class="lay2">SOMETHING NEW</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/b8.jpg" alt="">
+                        </div>
+                        <div class="lay2">VƯƠNG gia</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/b9.jpg" alt="">
+                        </div>
+                        <div class="lay2">BÊN KIA BẦU TRỜI</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct4.jpg" alt="">
+                        </div>
+                        <div class="lay2">HOÀNG HẬU KI</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ds1 wow fadeInUp">
+                <div class="col xemphim">
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct5.jpg" alt="">
+                        </div>
+                        <div class="lay2">TAM SINH</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct6.jpg" alt="">
+                        </div>
+                        <div class="lay2">MỊ NƯƠNG</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct7.jpg" alt="">
+                        </div>
+                        <div class="lay2">TRẠNG QUỲNH</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct8.jpg" alt="">
+                        </div>
+                        <div class="lay2">CUNG TỎA TÂM</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct9.jpg" alt="">
+                        </div>
+                        <div class="lay2">CÔNG CHÚA</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ds1 wow fadeInUp">
+                <div class="col xemphim">
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct10.jpg" alt="">
+                        </div>
+                        <div class="lay2">HẮC HIỆP SĨ</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct11.jpg" alt="">
+                        </div>
+                        <div class="lay2">BLACK BLOOD</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct12.jpg" alt="">
+                        </div>
+                        <div class="lay2">THẢM HỌA</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct13.jpg" alt="">
+                        </div>
+                        <div class="lay2">XẤU SỐ</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct14.jpg" alt="">
+                        </div>
+                        <div class="lay2">KINH DỊ</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ds1 wow fadeInUp">
+                <div class="col xemphim">
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct15.jpg" alt="">
+                        </div>
+                        <div class="lay2">HUSTEL</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct16.jpg" alt="">
+                        </div>
+                        <div class="lay2">ALADIN</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct17.jpg" alt="">
+                        </div>
+                        <div class="lay2">MINIONS</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="bo/ct19.jpg" alt="">
+                        </div>
+                        <div class="lay2">DEADPON</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                    <div class="poster">
+                        <div class="lay1">
+                            <img src="images/p4.jpg" alt="">
+                        </div>
+                        <div class="lay2">KHÁCH SẠN</div>
+                        <div class="lay3"><i class="fa fa-heart like"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sotrang">
+            <div class="container">
+                <div class="row">
+                    <ul class="pagenumber">
+                      <li class="so so1">1</li>
+                      <li class="so so2">2</li>
+                      <li class="so so3">3</li>
+                      <li class="so so4">4</li>
+                      <li class="so so5">5</li>
+                      <li class="cham">...</li>
+                      <li class="so so10">65</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+
+    <footer>
+        <div class="bentren">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <h6>Hình thức</h6> <br>
+                        <ul>
+                            <a href=""><li>Phim lẻ</li></a> <br>
+                            <a href=""><li>Phim bộ</li></a> <br>
+                            <a href=""><li>TV Show</li></a> 
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h6>Thể loại</h6> <br>
+                        <ul>
+                            <a href=""><li>Hành động</li></a> <br>
+                            <a href=""><li>Lãng mạn</li></a> <br>
+                            <a href=""><li>Hài hước</li></a> 
+                        </ul>
+                    </div>
+
+                    <div class="col-5">
+                        <h6>Quốc gia</h6> <br>
+                        <ul>
+                            <a href=""><li>Việt Nam</li></a> <br>
+                            <a href=""><li>Hàn Quốc</li></a> <br>
+                            <a href=""><li>Âu - Mỹ</li></a> 
+                        </ul>
+                    </div>
+
+                    <div class="col-3 logo">
+                        <img src="images/logo-02.png" alt="">
+                        <p class="mota">Cả thế giới phim nằm trong chiếc điện thoại của bạn!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ben tren end -->
+        <hr>
+        <div class="benduoi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2"><a href="">Giới thiệu</a> </div>
+                    <div class="col-2"><a href="">Liên hệ</a> </div>
+                    <div class="col-2"><a href="">Đối tác</a> </div>
+                    <div class="col-2"><a href="">Điều khoản</a> </div>
+                    <div class="col social">
+                        <a href="https://twitter.com/"><img class="logo" src="images/tw.png" alt=""></a>
+                        <a href="https://www.facebook.com/"><img class="logo" src="images/fb.jpg" alt=""></a>
+                        <a href="https://www.google.com/"><img class="logo" src="images/g.png" alt=""></a>
+                        <a href="https://zalo.me/pc"><img class="logo" src="images/z.jpg" alt=""></a>                      
+                    </div>
+                </div>
+                <div class="khoitext">
+                    <div class="row text">
+                        <div class="col">
+                            Mọi chi phí được tính theo VNĐ
+                        </div>
+                    </div>
+                    <div class="row text">
+                        <div class="col">
+                            Copyright ® 2019 FilmBox All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+</body>
+</html>

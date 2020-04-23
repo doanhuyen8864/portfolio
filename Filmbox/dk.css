@@ -1,0 +1,175 @@
+*{margin:0;
+    padding: 0;}
+
+p.ndbe {
+    line-height: 40px;
+}
+
+i.fa.fa-circle {
+    line-height: 40px;
+    margin-right: 16px;
+    font-size: 10px;
+    color: var(--main);
+}
+
+li.be1 {
+    display: flex;
+}
+
+ul.benefit {
+    margin-top: 40px;
+    list-style: none;
+    height: 40px;
+}
+
+h1.brand {
+    margin-top: -24px;
+    font-size: 80px;
+    color: var(--main);
+    font-weight: 700;
+}
+
+.gth {
+    color: white;
+    padding-top: 260px;
+}
+
+.chao {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nhapmail {
+    height: 64px;
+    margin-bottom: 12px;
+}
+
+.thongtin {background: url(images/bg1.png);background-repeat: no-repeat;position: absolute;margin-top: 131px;margin-left: -0.5px;}
+    
+    .nutdn {
+        font-size: 14px;
+        border: none;
+        height: 36px;
+        width: 120px;
+        border-radius: 2px;
+        background-color: var(--main);
+        color: white;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    
+    .addinfo {
+        padding-left: 12px;
+        margin-right: 16px;
+        width: 186px;
+        height: 36px;
+        background: white;
+        border: none;
+        border-radius: 2px;
+    }
+    
+    p.infor {
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        margin-top: 28px;
+    }
+    
+    .forget {
+        margin-top: 5px !important;
+        cursor: pointer;
+        color: rgba(255, 255, 255, .6);
+    }
+    
+    .loginnhanh {
+        display: flex;
+    }
+    
+    .topbar {
+        color: rgba(255, 255, 255, .87);
+        height: 132px;
+        width: 100%;
+        background-color: #1A1C27;
+        position: absolute;
+    }
+    
+    .khoito {
+        height: 960px;
+        /* margin-top: 50px; */
+    }
+
+    .thanhdecor {
+        background-color: #53B7A9;
+        width: 540px;
+        height: 8px;
+    }
+    
+    .login {
+        margin: auto;
+        background-color: white;
+        width: 540px;
+        height: 680px;
+        margin-left: -30px;
+    }
+    
+    .text {
+        margin-bottom: 24px;
+        margin-top: 56px;
+        width: 540px;
+        text-align: center;
+        height: 164px;
+        opacity: 0.87;
+    }
+    
+    .dn {
+        color: rgba(0, 0, 0, .87);
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+    .iconhide {
+        font-size: 24px;
+        margin-left: 459px;
+        position: absolute;
+        z-index: 2;
+        height: 64px;
+        line-height: 64px;
+        opacity: 0.38;
+    }
+    
+    .input {
+        z-index: 1;
+        position: absolute;
+    }
+    
+    .nhapmk {
+        margin-bottom: 12px;
+        width: 100%;
+        position: relative;
+        height: 64px;
+    }
+    
+    .nhap {
+        padding-left: 12px;
+        margin-left: 35px;
+        border-radius: 2px;
+        width: 470px;
+        background: none;
+        height: 64px;
+        border: 2px solid rgba(0, 0, 0, 0.12);
+    }
+    
+    .nutxn {text-align: center;height: 60px;color: white;width: 470px;border: none;background-color: var(--main);font-weight: 600;font-size: 18px;border-radius: 2px;margin-left: 35px;cursor: pointer;line-height: 60px;margin-top: 40px;}
+    
+    
+    .khoidn {
+        padding-top: 94px;
+    }
+    /* chung */
+    html{font-size: 16px;}
+    
+    body{
+        --main: #6dc8b7;
+        font-family: 'Montserrat',sans-serif!important;
+        overflow: hidden;
+    }

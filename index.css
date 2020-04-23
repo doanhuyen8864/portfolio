@@ -1,0 +1,417 @@
+*{margin: 0;padding: 0;cursor: default;}
+
+body {
+    font-family: sans-serif;
+}
+
+.overlay p {
+    font-size: 18px;
+}
+.matnen {
+    background: none;
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    z-index: 1;
+}
+
+.matanh {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    z-index: 2;
+    transition: 0.4s;
+}
+
+.khoi1 .matanh {
+    background: url(img/thefox.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.khoi2 .matanh {
+    background: url(img/burger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.khoi3 .matanh {
+    background: url(img/filmbox.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.chialayer:hover .matanh {
+    transform: scale(0);
+}
+
+.motkhoi:hover .matanh {
+    transform: scale(0);
+}
+.text {
+    color: white;
+    transition: 0.4s!important;
+    margin-top: 50px;
+}
+a.link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: #344022;
+    display: inherit;
+    width: 150px;
+    height: 38px;
+    line-height: 38px;
+    margin: auto;
+    border-radius: 4px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+a.link:hover {
+    color: #bfba75;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.active{
+    background: #818c30!important;
+    border-radius: 8px;
+}
+.thanhduoicung {
+    background: #818C30;
+    margin-top: 32px;
+    height: 64px;
+    line-height: 64px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #BFBA75;
+}
+
+footer a:hover {
+    color: #818C30;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    margin: 8px;
+    border: 1px solid;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+footer li:hover {
+    background: white;
+    color: #344022;
+}
+
+p.chuanghira {
+    font-size: 21px;
+}
+
+h4.tieude4 {margin-top: 48px;margin-bottom: 24px;}
+
+footer {
+    background: #344022;
+    margin-top: 96px;
+    color: white;
+    text-align: center;
+}
+
+button.submit1 {
+    margin-top: 64px;
+    font-size: 24px;
+    padding: 16px 24px;
+    border: none;
+    background: #bfba75;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+button.submit1:hover {
+    background: #818C30;
+}
+
+input.input1 {
+    display: block;
+    width: 700px;
+    margin: auto;
+    font-size: 24px;
+    padding: 16px 24px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 16px;
+    cursor: text;
+}
+
+form {
+    margin-top: 64px;
+}
+
+.section4 {
+    text-align: center;
+}
+
+.section2 hr, .section4 hr, .section1 hr, .section3 hr {
+    border: 3px solid #344022;
+    width: 236px;
+    margin: auto;
+    margin-bottom: -40px;
+    margin-top: 40px;
+}
+
+.section1 hr, .section3 hr {
+    border: 3px solid white;
+}
+
+.menu1 {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 140px;
+    font-size: 28px;
+    padding: 0px 30px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 6px;
+    transition: 0.4s;
+    height: auto;
+}
+
+.menu1:hover {
+    color: #bfba75;
+    /* line-height: 74px; */
+    /* height: 74px; */
+}
+
+
+
+span.portfolio {
+    color: #344022!important;
+    cursor: pointer;
+    font-weight: 600;
+    background: none!important;
+}
+
+ul.menu {
+    float: right;
+}
+
+header.thunho .menu1 {line-height: 74px;}
+
+header.thunho .menu1:hover {
+    background: #818c30;
+    border-radius: 8px;
+    color:white;
+}
+
+
+header {
+    background-color: #344022;
+    height: 156px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    transition: 0.4s;
+}
+
+header.thunho {
+    height: 108px;
+}
+
+header.thunho li {
+    font-size: 24px;
+    margin-top: 17px;
+    transition: 0.4s;
+}
+
+/* .menu1:hover:before {
+    content: '';
+    position: absolute;
+    height: 15px;
+    background-color: #818c30;
+    bottom: 36px;
+    z-index: -1;
+}
+.n1:hover:before{width: calc(7% + 20px);right: 782px;}
+.n2:hover:before{width: calc(6.5% + 20px);right: 593px;}
+.n3:hover:before{width: calc(5.5% + 20px);right: 418px;} */
+/* .nut {
+    padding: 16px 32px;
+    font-size: 21px;
+    transition: 0.4s;
+    border: 2px solid;
+    margin-top: 32px;
+} */
+/* hieu ung thay doi khi di chuyen chuot len */
+.nut:hover {
+    color: #344022;
+}
+
+.cantrai {
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.hobbies i {
+    font-size: 26px!important;
+    margin-right: 10px;
+}
+
+.section3 {
+    text-align: center;
+    background: #BFBA75;
+    height: 700px;
+    line-height: 36px;
+    letter-spacing: .4px;
+}
+
+.hobbies {
+    margin-bottom: 10px;
+}
+
+.chialayer {
+    position: relative;
+    height: 350px;
+    width: 350px;
+    top: 40px;
+}
+ /* cong thuc chia layer */
+.chialayer:hover .overlay {
+    opacity: 1;
+    transform: scale(0.9);
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #BFBA75;
+    border: 15px solid #344022;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.4s;
+    cursor: default;
+    transform: scale(0);
+}
+
+
+img.motanh {
+    width: 100%;
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.section2 i, .section3 i,.section4 i {
+    color: #344022;
+    font-size: 44px;
+    margin-top: 12px;
+}
+
+.bgtrang {
+    background-color: white;
+    padding: 0 8px;
+}
+
+.section3 i {
+    color: white;
+    transition: 0.4s;
+}
+
+.section1 i, .section3 i {
+    background: #BFBA75;
+    padding: 0 8px;
+}
+
+.nut:hover i {
+    color: #344022;
+}
+
+.section3 .nut i {
+    font-size: 18px;
+    margin-top: 0;
+    margin-right: 6px;
+}
+
+
+h3.tieude3 {
+    font-size: 44px;
+    color: #344022;
+    padding-top: 64px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    transition: 2s;
+}
+
+.section3 h3.tieude3 {color: white;padding-top: 145px;}
+
+.section2 {
+    height: 700px;
+    text-align: center;
+    padding-top: 62px;
+}
+p.mota {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 58px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+h2.tieudeto {
+    font-size: 72px;
+    color: #344022;
+    font-weight: 900;
+    margin-top: 48px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section1 i {
+    font-size: 48px;
+    color: white;
+    margin-top: 12px;
+}
+
+.section1 img {
+    margin-top: 290px;
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    border: 20px solid #344022;
+    box-sizing: border-box;
+}
+
+.section1 {
+    background-color: #BFBA75;
+    height: 975px;
+    text-align: center;
+} 

@@ -1,0 +1,705 @@
+*{margin:0; padding:0;}
+/* header */
+header .home {
+    background: var(--main)!important;
+}
+header{
+    height: 9rem;
+    z-index: 9999999999999999999;
+}
+/* top header */
+header .top-header{
+    height: 3rem;
+    background: #222533;
+}
+header .top-header .container .row{float: right;}
+header .top-header .container .row .col button.nut1{
+    font-size: 1rem;
+    height: 3rem;
+    padding: 0 0.875rem;
+    margin-left: -5px;
+    background: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.4s;
+    outline: 0;
+}
+header .nut1:hover {background: var(--main)!important;}
+
+/* navigation */
+header .navigation{
+    background: #1A1C27;
+    height: 6rem;
+}
+header .navigation .container .row{line-height: 6rem;}
+header .navigation .container .row .logo img{
+    height: 2.6875rem;
+    width: 10rem;
+    margin-top: 1.625rem;
+}
+header .navigation .container .row .menu a{
+    font-size: 1rem;
+    margin-left: 0.875rem;
+    font-weight: 600;
+    transition: 0.4s;
+}
+header .navigation .container .row .menu a:hover {color: var(--main)!important;}
+header .navigation .container .row .search{height: 2.75rem;}
+header .navigation .container .row .search i{
+    color: white;
+    font-size: 1rem;
+    transform: rotateY(180deg);
+    margin-top: 44px;
+}
+input.form-control {
+    height: 100%;
+    border: none;
+    box-shadow: 0 0 0 0!important;
+    border-bottom: 0.125rem solid var(--main);
+    border-radius: 0;
+    font-size: 1rem;
+    color: #ffffff!important;
+    opacity: 1;
+    margin-top: -1.8rem;
+    margin-left: -0.125rem;
+    font-weight: 600;
+    background: none;
+    padding-left: 2rem!important;
+}
+input.form-control:focus {
+    background: none;
+    border-bottom: 2px solid #6dc8b7;
+}
+header .navigation .container .row .profile{margin-right: -6rem;}
+header .navigation .container .row .profile .ava{
+    width: 2.125rem;
+    height: 2.125rem;
+    float: left;
+    margin-top: 30px;
+}
+header .navigation .container .row .profile .ava img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: -0.25rem;
+    border: 2px solid var(--main);
+}
+header .navigation .container .row .profile a{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0.5rem 0 0.25rem;
+}
+header .navigation .container .row .profile i {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+header .navigation .container .row .profile i:hover {
+    color: var(--main);
+    font-size: 20px;
+    transform: translate(0px, 3px);
+}
+/* account */
+.account {
+    background: white;
+    height: 14rem;
+    width: 11.875rem;
+    visibility: hidden;
+    box-shadow: 0 0 0.5rem 0;
+    transform: translateX(58.375rem);
+}
+.account ul {
+    color: black;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.account ul li {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    cursor: pointer;
+}
+.account ul li:hover {
+    background: var(--main);
+    color: white;
+}
+.account ul li img {margin-left: 1.25rem;}
+.account ul li span {margin-left: 1rem;}
+/* HEADER end */
+/* FOOTER */
+footer{
+    height: 31.25rem;
+    background: #1A1C27;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    overflow-y: hidden;
+    transform: translateY(72px);
+}
+footer .bentren{height: 18.75rem;}
+footer .bentren .container .row{padding-top: 4.6875rem;}
+footer .bentren h6{font-size: 1.25rem;}
+footer .bentren ul{
+    list-style: none;
+    font-size: 1rem;
+    padding: 0;
+}
+footer .bentren ul li{transition: 0.4s;}
+footer .bentren ul li:hover{color: var(--main)!important;}
+footer .bentren .logo{
+    width: 17.75rem;
+    margin-top: 1rem;
+}
+footer .bentren .logo img{
+    width: 100%;
+    height: 4.25rem;
+}
+footer .bentren p.mota{
+    margin-top: 0.875rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+footer .benduoi{
+    padding-top: 2rem;
+    height: 11.875rem;
+    font-size: 1rem;
+}
+footer .benduoi .container .row a{
+    transition: 0.4s;
+    font-size: 1.125rem!important;
+}
+footer .benduoi .container .row a:hover{color: var(--main)!important;}
+footer .benduoi .container .text{
+    font-size: 0.875rem;
+    font-weight: 400!important;
+}
+footer .benduoi .container .social .logo{
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-left: 2.25rem;
+    float: right;
+    border-radius: 2px;
+}
+.khoitext {margin-top: 1.25rem;}
+footer hr {
+    margin-top: 1px!important;
+    border-top: 1px solid #707070!important;
+}
+/* 208 HET CHUNG */
+.comment {
+    margin-top: -138px;
+}
+.modal-content .nut {
+    transform: translate(327px, 12px);
+}
+.dx {
+    background: none;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    height: 24px;
+    display: flex;
+}
+.dx:focus{outline: 0;}
+.modal-content button {
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    min-width: 64px;
+    margin-left: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 36px;
+}
+
+.modal-content button.outlined {
+    border: 1px solid var(--main);
+    background: none;
+    color: var(--main);
+}
+
+.modal-content button.contained {
+    background: var(--main);
+}
+
+.modal-content p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 4px;
+    color: black;
+}
+
+.modal-content h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1px;
+    color: black;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    margin: auto;
+    width: 560px!important;
+    height: 155px;
+    padding: 20px 16px 8px 24px;
+    margin-top: 160px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* rate */
+.post {
+    margin-top: 32px;
+    margin-left: 320px;
+    font-size: 18px;
+    width: 410px;
+    border: none;
+    background-color: var(--main);
+    color: white;
+    height: 60px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.cf {
+    margin-top: 16px;
+}
+
+p.yes {
+    font-weight: 500;
+}
+
+.icon {
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+.icon1 {
+    color: var(--main);
+}
+
+.cf1 {
+    display: flex;
+    margin-left: 54px;
+}
+
+.title {
+    padding-left: 12px;
+    margin-left: 38px;
+    width: 1024px;
+    background: none;
+    border: 2px solid #40424C;
+    margin-top: 16px;
+    color: white;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.tit2 {
+    height: 240px;
+    margin-bottom: 16px
+}
+
+.tit1 {
+    height: 64px;
+}
+
+.row.vote {
+    height: 56px;
+    line-height: 56px;
+}
+
+i.far.fa-star {
+    margin-right: 8px;
+}
+
+ul.star {
+    margin-left: 56px;
+    list-style: none;
+    display: flex;
+}
+
+
+.row.point {
+    background-color: var(--main);
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 56px;
+}
+
+.cmt {
+    background-color: #1D202C;
+    height: 900px;
+}
+
+.nd {
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+    
+    p.nam {font-weight: 500;margin-bottom: 4px;}
+    
+    p.ten {
+        margin-bottom: 0px;
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--main);
+    }
+    
+    img.posph {
+        width: 100px;
+    }
+    
+    .pos {
+        margin-left: 44px;
+        height: 140px;
+        width: 100px;
+        overflow: hidden;
+    }
+    
+    .khoiphim {
+        padding-top: 40px;
+        margin-top: 80px;
+        height: 209px;
+    }
+
+/* rate end */
+
+
+
+p.tennguoi {
+    color: var(--main);
+    font-weight: 600;
+    margin-right: 16px;
+}
+
+.user {
+    font-size: 14px;
+    display: flex;
+}
+
+.mobai {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p.diemso {
+    font-size: 32px;
+}
+
+span.tren {
+    font-size: 26px;
+}
+
+.rating {
+    height: 60px;
+}
+
+.iconrate {
+    margin-right: 16px;
+    font-size: 40px;
+    color: var(--main);
+}
+
+.rating {
+    display: flex;
+}
+
+.khoicmt {
+    margin-bottom: 64px;
+    border-radius: 2px;
+    height: 390px;
+    background-color: rgba(0, 0, 0, .24);
+    padding: 32 64 42px 27px;
+}
+
+.vuong {
+    font-size: 24px;
+}
+
+.slg {
+    margin-top: 67px;
+    font-size: 20px;
+}
+
+p.luong {
+    padding-left: 32px;
+    margin-right: 818px;
+}
+
+
+.hide {
+    display: flex;
+}
+
+.thanhngang {
+    margin-top: 64px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, .12);
+}
+
+.add {
+    margin-top: 24px;
+}
+
+.addcomt {
+    margin-top: 24px;
+}
+
+.textadd {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.iconadd {
+    cursor: pointer;
+    font-size: 40px;
+    color: var(--main);
+}
+
+.tin {
+    margin-top: 36px;
+}
+
+li.cham {
+    font-size: 36px;
+    margin-right: 16px;
+}
+
+.so {
+    margin-right: 16px;
+    color: #0000009e;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.so1 {
+    color: white;
+    background-color: var(--main);
+}
+
+ul.pagenumber {
+    margin-top: 150px;
+    margin-left: 372px;
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.nut {
+    margin-top: 16px;
+}
+
+i {
+    margin-right: 8px;
+}
+
+p.nd1 {
+    margin-bottom: 6px;
+}
+
+.nut button {
+    font-weight: 500;
+    border-radius: 2px;
+    width: 120px;
+    height: 36px;
+    border: none;
+    background-color: var(--main);
+    color: white;
+    font-size: 14px;
+}
+
+button.play {
+    margin-right: 12px;
+}
+
+.nd {
+    font-size: 14px;
+}
+
+.gthphim {
+    margin-left: -16px;
+}
+
+p.danhgia {
+    margin-left: 11px;
+}
+
+.rate {
+    font-size: 14px;
+    display: flex;
+    font-weight: 500;
+}
+
+.diem {
+    height: 24px;
+    width: 24px;
+    background-color: var(--main);
+    border-radius: 2px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.spoil {
+    width: 269px;
+    text-align: unset;
+    line-height: 39px;
+}
+
+p.tg {
+    margin-left: 11px;
+}
+
+.time {
+    margin-top: -8px;
+    font-size: 14px;
+    display: flex;
+    font-weight: 500;
+}
+
+.tuoi {
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--main);
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+p.year {
+    font-weight: 500;
+    margin-top: -13px;
+}
+
+p.tenphim {
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--main);
+}
+
+.tin {
+    background-color: rgba(0, 0, 0, 0.24);
+    height: 368px;
+}
+
+
+p.mota {
+    margin-top: -12px;
+    font-size: 16px;
+}
+
+
+p.tentheloai {
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+hr {
+    color: white;
+}
+
+.theloai {
+    height: 64px;
+}
+
+.phim {
+    cursor: pointer;
+    transition: 0.2s;
+    width: 100px;
+    height: 64px;
+    text-align: center;
+    margin-right: 10px;
+}
+.phim:hover{    border-bottom: 4px solid #53B7A9!important;}
+.phim2 {
+    border-bottom: 4px solid #53B7A9;
+    cursor: pointer;
+}
+
+p.tlphim {
+    margin-top: 36px;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+
+.tintuc img {
+    margin-top: 32px;
+    height: 320px;
+    /* width: 217px; */
+}
+/* chung */
+html{font-size: 16px;}
+
+
+html, body {
+	width: 100%;
+    height: 100%;
+}
+body{
+    --main: #6dc8b7;
+    --bg: #2c2d33;
+    background-color: #222533!important;
+    overflow-x: hidden;
+    font-family: 'Montserrat',sans-serif!important;
+    color: white!important;
+}
+a {color: white!important;}
+a:hover {
+    text-decoration: none!important;
+    opacity:1;
+}
+hr.so3{transform: translateY(59.5rem);}
+hr {
+    border-top: 1px solid #ffffff3d!important;
+    transform: translateY(55.25rem);
+}
+hr.so4 {transform: translateY(63.375rem);}

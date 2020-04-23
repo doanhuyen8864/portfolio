@@ -1,0 +1,441 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* header */
+header .home {
+    background: var(--main)!important;
+}
+header{
+    height: 9rem;
+    z-index: 9999999999999999999;
+}
+/* top header */
+header .top-header{
+    height: 3rem;
+    background: #222533;
+}
+header .top-header .container .row{float: right;}
+header .top-header .container .row .col button.nut1{
+    font-size: 1rem;
+    height: 3rem;
+    padding: 0 0.875rem;
+    margin-left: -5px;
+    background: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.4s;
+    outline: 0;
+}
+header .nut1:hover {background: var(--main)!important;}
+
+/* navigation */
+header .navigation{
+    background: #1A1C27;
+    height: 6rem;
+}
+header .navigation .container .row{line-height: 6rem;}
+header .navigation .container .row .logo img{
+    height: 2.6875rem;
+    width: 10rem;
+    margin-top: 0.625rem;
+}
+header .navigation .container .row .menu a{
+    font-size: 1rem;
+    margin-left: 0.875rem;
+    font-weight: 600;
+    transition: 0.4s;
+}
+header .navigation .container .row .menu a:hover {color: var(--main)!important;}
+header .navigation .container .row .search{height: 2.75rem;}
+header .navigation .container .row .search i{
+    color: white;
+    font-size: 1rem;
+    transform: rotateY(180deg);
+}
+input.form-control {
+    height: 100%;
+    border: none;
+    box-shadow: 0 0 0 0!important;
+    border-bottom: 0.125rem solid var(--main);
+    border-radius: 0;
+    font-size: 1rem;
+    color: #ffffff!important;
+    opacity: 1;
+    margin-top: -4.25rem;
+    margin-left: -0.125rem;
+    font-weight: 600;
+    background: none;
+    padding-left: 2rem!important;
+}
+input.form-control:focus {
+    background: none;
+    border-bottom: 2px solid #6dc8b7;
+}
+header .navigation .container .row .profile{margin-right: -6rem;}
+header .navigation .container .row .profile .ava{
+    width: 2.125rem;
+    height: 2.125rem;
+    float: left;
+}
+header .navigation .container .row .profile .ava img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: -0.25rem;
+    border: 2px solid var(--main);
+}
+header .navigation .container .row .profile a{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0.5rem 0 0.25rem;
+}
+header .navigation .container .row .profile i {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+header .navigation .container .row .profile i:hover {
+    color: var(--main);
+    font-size: 20px;
+    transform: translate(0px, 3px);
+}
+/* account */
+.account {
+    background: white;
+    height: 14rem;
+    width: 11.875rem;
+    visibility: hidden;
+    box-shadow: 0 0 0.5rem 0;
+    transform: translateX(58.375rem);
+}
+.account ul {
+    color: black;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.account ul li {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    cursor: pointer;
+}
+.account ul li:hover {
+    background: var(--main);
+    color: white;
+}
+.account ul li img {margin-left: 1.25rem;}
+.account ul li span {margin-left: 1rem;}
+/* HEADER end */
+/* FOOTER */
+footer{
+    height: 31.25rem;
+    background: #1A1C27;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    overflow-y: hidden;
+    transform: translateY(96px);
+}
+footer .bentren{height: 18.75rem;}
+footer .bentren .container .row{padding-top: 4.6875rem;}
+footer .bentren h6{font-size: 1.25rem;}
+footer .bentren ul{
+    list-style: none;
+    font-size: 1rem;
+    padding: 0;
+}
+footer .bentren ul li{transition: 0.4s;}
+footer .bentren ul li:hover{color: var(--main)!important;}
+footer .bentren .logo{
+    width: 17.75rem;
+    margin-top: 1rem;
+}
+footer .bentren .logo img{
+    width: 100%;
+    height: 4.25rem;
+}
+footer .bentren p.mota{
+    margin-top: 0.875rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+footer .benduoi{
+    padding-top: 2rem;
+    height: 11.875rem;
+    font-size: 1rem;
+}
+footer .benduoi .container .row a{
+    transition: 0.4s;
+    font-size: 1.125rem!important;
+}
+footer .benduoi .container .row a:hover{color: var(--main)!important;}
+footer .benduoi .container .text{
+    font-size: 0.875rem;
+    font-weight: 400!important;
+}
+footer .benduoi .container .social .logo{
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-left: 2.25rem;
+    float: right;
+    border-radius: 2px;
+}
+.khoitext {margin-top: 1.25rem;}
+footer hr {
+    margin-top: 1px!important;
+    border-top: 1px solid #707070!important;
+}
+/* 208 HET CHUNG */
+
+.sapchieu {
+    margin-bottom: 104px;
+}
+
+.next1 {
+    margin-top: 168px !important;
+}
+
+p.date {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p.tb {
+    color: var(--main);
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 204px;
+    margin-top: 60px;
+}
+
+p.namephim {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p.namephim1 {
+    color: var(--main);
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dsphim {
+    width: 1518px;
+    justify-content: space-between;
+}
+
+.phimkhoi {
+    display: flex;
+    width: 100%;
+    padding-left: 204px;
+    background-color: rgba(0, 0, 0, .24);
+    padding-top: 64px;
+    height: 609px;
+}
+
+.text {
+    margin-bottom: 32px;
+    padding-left: 205px;
+}
+
+.motaopt {
+    font-size: 20px;
+}
+
+.opt {
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.dsphim {
+    display: flex;
+}
+
+.biaphim {height: 409px;}
+
+.bia {
+    width: 285px;
+    height: 409px;
+    overflow: hidden;
+}
+
+.theloai {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: -12px;
+}
+
+.nutnext {
+    margin-left: 80px;
+    margin-top: 80px;
+    font-size: 38px;
+    cursor: pointer;
+}
+
+.ngang1 {
+    margin-top: 104px;
+    margin-bottom: 42px;
+}
+
+.already {
+    width: 100%;
+    margin-top: 95px;
+    height: 513px;
+}
+
+.new {
+    margin-bottom: 64px;
+    height: 497px;
+}
+
+.tieude {
+    margin-bottom: 24px;
+    font-size: 34px;
+    margin-left: 200px;
+    font-weight: 600;
+}
+
+.per {
+    font-size: 14px;
+    padding-left: 256px;
+    padding-top: 12px;
+}
+
+.tg {
+    background-color: var(--main);
+    height: 4px;
+}
+
+.tg1 {
+    width: 70%;
+}
+
+.time {
+    width: 100%;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.tenphim {
+    color: var(--main);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    /* margin-left: 15px; */
+}
+
+.khoiphim {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .24);
+    height: 440px;
+}
+
+.cacphim {padding-left: 200px;padding-top: 64px;}
+
+.phim {
+    margin-right: 27px;
+    /* background-color: var(--bg); */
+    width: 360px;
+    height: 318px;
+}
+
+.cacphim {
+    display: flex;
+}
+
+.poster {
+    width: 355px;
+}
+
+.pos {
+    width: 355px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.thanhngang {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .12);
+}
+
+.qli {
+    margin-top: 77px;
+    font-size: 14px;
+    width: 176px;
+    border: none;
+    color: white;
+    background-color: var(--main);
+    border-radius: 2px;
+    height: 36px;
+    font-weight: 600;
+}
+
+
+.mail {
+    font-weight: 600;
+}
+
+.name {
+    color: var(--main);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.ten {
+    margin-left: 40px;
+}
+
+.thongtin {
+    margin-top: 67px;
+    display: flex;
+}
+
+.canhanh {
+    height: 226px;
+}
+
+img.avt {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.khoiphim1{
+    height: 388px;
+}
+
+/* chung */
+html{font-size: 16px;}
+
+
+html, body {
+	width: 100%;
+    height: 100%;
+}
+body{
+    --main: #6dc8b7;
+    --bg: #2c2d33;
+    background-color: #222533!important;
+    overflow-x: hidden;
+    font-family: 'Montserrat',sans-serif!important;
+    color: white!important;
+}
+a {color: white!important;}
+a:hover {
+    text-decoration: none!important;
+    opacity:1;
+}
+hr.so3{transform: translateY(59.5rem);}
+hr {
+    border-top: 1px solid #ffffff3d!important;
+    transform: translateY(55.25rem);
+}
+hr.so4 {transform: translateY(63.375rem);}

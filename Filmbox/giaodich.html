@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FilmBox - Quản lý giao dịch</title>
+    <!-- logo -->
+    <link rel="icon" href="https://i.imgur.com/yWOXyYA.png">
+    <!-- css -->
+    <link rel="stylesheet" href="giaodich.css">
+    <!-- font montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body>
+    <header class="position-relative">
+        <div class="top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <button class="nut1">
+                            <a class="" href="Home.html">Home</a> 
+                        </button>
+                        <button class="nut1">
+                            <a class="" href="news-cine.html">News</a> 
+                        </button>
+                        <button class="nut1">
+                            <a class="" href="review.html">Film Reviews</a> 
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top header end -->
+        <div class="navigation">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-2 logo">
+                        <a href="Home.html">
+                            <img src="images/logo-02.png" alt="">
+                        </a> 
+                    </div>
+                    
+                    <div class="col-5 menu">
+                        <a href="filter.html">Phim lẻ</a>
+                        <a href="locphimbo.html">Phim bộ</a>
+                        <a href="loctv.html">TV Show</a>
+                        <a href="mylist.html">Phim của tôi</a>
+                    </div>
+                        
+                    <div class="col search">
+                        <i class="fa fa-search"></i>
+                        <input type="text" id="myInput" value="" onkeyup="myFunction()" class="form-control" placeholder="Tên phim, diễn viên..." aria-label="Tên phim, diễn viên..." aria-describedby="basic-addon1">
+                    </div>
+                    
+                    <div class="col profile">
+                        <a href="canhan.html" class="ava">
+                            <img src="images/a1.jpg" alt="">
+                        </a>                     
+                        <a href="canhan.html">Đ. Huyền</a>
+                        <i class="fa fa-angle-down"></i>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <!-- navigation end -->
+    </header>
+    <!-- header end -->
+
+    <div class="khoito container">
+        <div class="row row1">
+            <div class="col-3 menu">
+                <ul>
+                    <a href="taikhoan.html">
+                        <li>TÀI KHOẢN</li>
+                    </a>
+                    <a href="password.html">
+                        <li>ĐỔI MẬT KHẨU</li>
+                    </a>
+                    <a href="giaodich.html">
+                        <li class="active">QUẢN LÝ GIAO DỊCH</li>
+                    </a>
+                    <a href="">
+                        <li>ĐĂNG XUẤT</li>
+                    </a>               
+                </ul>
+            </div>
+            <div class="col-9">
+                <h4>QUẢN LÝ GIAO DỊCH</h4><p class="hsd">Ngày hết hạn: 29/08/2019</p>
+                <hr><h6 class="x">Quản lí tài khoản</h6>
+                <div class="row thongtin"> 
+                    <div class="col-3">
+                        <p>Chủ tài khoản:</p>
+                        <p>Số tài khoản:</p>
+                        <p>Tên ngân hàng:</p>
+                        
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="ten" value="   DOAN NGOC HUYEN">     
+                        <input type="text" class="ten" value="   **** **** **** 5678">
+                        <input type="text" class="ten" value="   TECHCOMBANK">
+                    </div>
+                    <div class="col-3">
+                        <p class="t">Chỉnh sửa</p>
+                        <p class="t">Chỉnh sửa</p>
+                        <p class="t">Chỉnh sửa</p>
+                    </div>
+                </div><p class="v x">Thêm phương thức thanh toán</p>
+                <hr>
+                
+                <div class="row avatar">
+                    <h6 class="x">Gia hạn dịch vụ FilmBox</h6>
+                    <div class="col-9">
+                        <div class="choice">
+                            <i class="fa fa-check-square check1 opacity1"></i> 
+                            <i class="fa fa-square uncheck1 uncheck"></i> 
+                            Gói tháng - 195 000 VND
+                        </div>
+                        <div class="choice">
+                            <i class="fa fa-check-square check2 opacity2"></i> 
+                            <i class="fa fa-square uncheck2 uncheck"></i> 
+                            Gói quý - 495 000 VND
+                        </div>
+                        <div class="choice">
+                            <i class="fa fa-check-square check3 opacity3"></i> 
+                            <i class="fa fa-square uncheck3 uncheck"></i> 
+                            Gói năm - 1 950 000 VND
+                        </div>
+                    </div>
+                    <button>GIA HẠN</button>
+                </div>
+                <hr>
+                <h6 class="x">Lịch sử giao dịch</h6>
+                <div class="row ls">
+                    <div class="col-2">
+                        <h5>NGÀY</h5>
+                        <div class="ngay">29/08/2020</div>
+                        <div class="ngay">29/08/2019</div>
+                        <div class="ngay">29/07/2020</div>
+                    </div>
+                    <div class="col-6">
+                        <h5>HOẠT ĐỘNG</h5>
+                        <div class="ngay">Gia hạn dịch vụ FilmBox</div>
+                        <div class="ngay">Gia hạn dịch vụ FilmBox</div>
+                        <div class="ngay">Bắt đầu sử dụng dịch vụ Filbox</div>
+                    </div>
+                    <div class="col-4">
+                        <h5>GÓI ĐĂNG KÝ</h5>
+                        <div class="ngay">Gói năm</div>
+                        <div class="ngay">Gói tháng</div>
+                        <div class="ngay">Miễn phí dùng thử 1 tháng</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+            <button class="dx " id="myBtn">Hủy bỏ dịch vụ FilmBox?</button>   
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close"></span>
+                <h6>Hủy dịch vụ FilmBox : (</h6>
+                <p>Bạn có chắc chắn muốn hủy dịch vụ? Lưu ý: Thao tác này không thể hoàn tác</p>
+                <div class="nut">
+                    <button class="outlined">HỦY</button>
+                    <button class="contained">HỦY DỊCH VỤ</button>
+                </div>
+            </div>
+
+            </div>
+
+            <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+            modal.style.display = "block";
+            }
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+            }
+            </script> 
+
+    <footer>
+        <div class="bentren">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <h6>Hình thức</h6> <br>
+                        <ul>
+                            <a href=""><li>Phim lẻ</li></a> <br>
+                            <a href=""><li>Phim bộ</li></a> <br>
+                            <a href=""><li>TV Show</li></a> 
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h6>Thể loại</h6> <br>
+                        <ul>
+                            <a href=""><li>Hành động</li></a> <br>
+                            <a href=""><li>Lãng mạn</li></a> <br>
+                            <a href=""><li>Hài hước</li></a> 
+                        </ul>
+                    </div>
+
+                    <div class="col-5">
+                        <h6>Quốc gia</h6> <br>
+                        <ul>
+                            <a href=""><li>Việt Nam</li></a> <br>
+                            <a href=""><li>Hàn Quốc</li></a> <br>
+                            <a href=""><li>Âu - Mỹ</li></a> 
+                        </ul>
+                    </div>
+
+                    <div class="col-3 logo">
+                        <img src="images/logo-02.png" alt="">
+                        <p class="mota">Cả thế giới phim nằm trong chiếc điện thoại của bạn!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ben tren end -->
+        <hr>
+        <div class="benduoi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2"><a href="">Giới thiệu</a> </div>
+                    <div class="col-2"><a href="">Liên hệ</a> </div>
+                    <div class="col-2"><a href="">Đối tác</a> </div>
+                    <div class="col-2"><a href="">Điều khoản</a> </div>
+                    <div class="col social">
+                        <a href="https://twitter.com/"><img class="logo" src="images/tw.png" alt=""></a>
+                        <a href="https://www.facebook.com/"><img class="logo" src="images/fb.jpg" alt=""></a>
+                        <a href="https://www.google.com/"><img class="logo" src="images/g.png" alt=""></a>
+                        <a href="https://zalo.me/pc"><img class="logo" src="images/z.jpg" alt=""></a>                      
+                    </div>
+                </div>
+                <div class="khoitext">
+                    <div class="row text">
+                        <div class="col">
+                            Mọi chi phí được tính theo VNĐ
+                        </div>
+                    </div>
+                    <div class="row text">
+                        <div class="col">
+                            Copyright ® 2019 FilmBox All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            $('.uncheck1').click(function (e) { 
+                e.preventDefault();
+                $('.check1').toggleClass('opacity1');
+            });
+        });
+        $(function () {
+            $('.uncheck2').click(function (e) { 
+                e.preventDefault();
+                $('.check2').toggleClass('opacity2');
+            });
+        });
+        $(function () {
+            $('.uncheck3').click(function (e) { 
+                e.preventDefault();
+                $('.check3').toggleClass('opacity3');
+            });
+        });
+    </script>
+
+
+    </script>
+</body>
+</html>

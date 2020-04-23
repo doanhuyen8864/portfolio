@@ -1,0 +1,532 @@
+*{margin: 0;padding: 0;}
+
+.iconactive {
+    transform: translate(244px, -81px);
+    position: absolute;
+    transition: 0.4s;
+}
+
+.iconactive img {
+    cursor: pointer;
+}
+
+.icon {
+    transform: translate(244px, -82px);
+    position: absolute;
+}
+
+.icon img {
+    cursor: pointer;
+}
+
+.tengibaygio {
+    margin-left: 96px;
+    margin-top: -55px;
+}
+
+.cmt .cmt1 h4 {
+    color: var(--main);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+li.cmt1 {transform: translateY(74px);margin-bottom: 57px;}
+
+.cmt button {
+    color: white;
+    background: var(--main);
+    padding: 8px 16px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 12px;
+}
+
+.cmt .so1 {
+    font-weight: 600;
+}
+
+.cmt hr {
+    border-bottom: 2px solid #62646D;
+    width: 1072px;
+    margin-bottom: 32px;
+}
+
+.cmt input {
+    height: 72px;
+    width: 975px;
+    background: rgba(0, 0, 0, .24);
+    border: 1px solid #62646D;
+    outline: 0;
+    margin-left: 32px;
+    padding: 16px;
+}
+
+.cmt ul {
+    list-style: none;
+}a
+
+.cmt .cmt1 p {
+    font-size: 14px;
+}
+
+.cmt input:focus{
+    color: white;
+}
+
+.cmt img {
+    height: 60px;
+    width: 60px;
+    margin-top: -13px;
+}
+
+.cmt {
+    height: 737px;
+    background: rgba(0, 0, 0, .24);
+    transform: translateY(460px);
+    padding: 22px 40px 22px 28px!important;
+}
+
+.nut {
+    transform: translate(284px, 360px);
+}
+
+.nut span {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 8px;
+}
+
+.nut button {
+    background: var(--main);
+    border: 0;
+    color: white;
+    padding: 8px 16px;
+    margin-left: 8px;
+    height: 36px;
+    line-height: 20px;
+}
+
+.danhgia {
+    height: 90px;
+    background: rgba(0, 0, 0, .24);
+    transform: translateY(332px);
+}
+
+.noidung p.mota {
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.noidung p.nam {
+    font-size: 18px;
+}
+
+.noidung h3 {
+    font-size: 34px;
+    color: var(--main);
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+
+.noidung {
+    height: 248px;
+    transform: translateY(300px);
+    background: rgba(0, 0, 0, .24);
+    padding: 31px 28px 34px 28px!important;
+    letter-spacing: 0.1px;
+}
+
+video {
+    transform: translate(216px, 194px);
+    outline: 0;
+}
+/* js */
+.v, .active-trailer{visibility: visible!important;}
+.opacity{opacity: 0;}
+/* chung */
+html{font-size: 16px;}
+html, body {
+	width: 100%;
+    height: 100%;
+}
+body{
+    --main: #6dc8b7;
+    --bg: #2c2d33;
+    background-color: #222533!important;
+    overflow-x: hidden;
+    font-family: 'Montserrat',sans-serif!important;
+    color: white!important;
+}
+
+.danhgia h4 {
+    color: var(--main);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 90px;
+    padding-left: 28px;
+}
+a {color: white!important;}
+a:hover {
+    text-decoration: none!important;
+    opacity:1;
+}
+/* HEADER */
+header{
+    height: 9rem;
+    z-index: 9999999999999999999;
+    position: fixed!important;
+    width: 100%;
+}
+/* top header */
+header .top-header{
+    height: 3rem;
+    background: #222533;
+}
+header .top-header .container .row{float: right;}
+header .top-header .container .row .col button.nut1{
+    font-size: 1rem;
+    height: 3rem;
+    padding: 0 0.875rem;
+    margin-left: -0.5rem;
+    background: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.4s;
+}
+header .nut1:hover {background: var(--main)!important;}
+
+/* navigation */
+header .navigation{
+    background: #1A1C27;
+    height: 6rem;
+}
+header .navigation .container .row{line-height: 6rem;}
+header .navigation .container .row .logo img{
+    height: 2.6875rem;
+    width: 10rem;
+    margin-top: 0.625rem;
+}
+header .navigation .container .row .menu a{
+    font-size: 1rem;
+    margin-left: 0.875rem;
+    font-weight: 600;
+    transition: 0.4s;
+}
+header .navigation .container .row .menu a:hover {color: var(--main)!important;}
+header .navigation .container .row .search{height: 2.75rem;}
+header .navigation .container .row .search i{
+    color: white;
+    font-size: 1rem;
+    transform: rotateY(180deg);
+}
+input.form-control {
+    height: 100%;
+    border: none;
+    box-shadow: 0 0 0 0!important;
+    border-bottom: 0.125rem solid var(--main);
+    border-radius: 0;
+    font-size: 1rem;
+    color: #ffffff!important;
+    opacity: 1;
+    margin-top: -4.25rem;
+    margin-left: -0.125rem;
+    font-weight: 600;
+    background: none;
+    padding-left: 2rem!important;
+}
+input.form-control:focus {
+    background: none;
+    border-bottom: 2px solid #6dc8b7;
+}
+header .navigation .container .row .profile{margin-right: -6rem;}
+header .navigation .container .row .profile .ava{
+    width: 2.125rem;
+    height: 2.125rem;
+    float: left;
+}
+header .navigation .container .row .profile .ava img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: -0.25rem;
+}
+header .navigation .container .row .profile a{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0.5rem 0 0.25rem;
+}
+header .navigation .container .row .profile i {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+header .navigation .container .row .profile i:hover {
+    color: var(--main);
+    font-size: 20px;
+    transform: translate(0px, 3px);
+}
+/* account */
+.account {
+    background: white;
+    height: 14rem;
+    width: 11.875rem;
+    visibility: hidden;
+    transform: translateX(58.375rem);
+}
+.account ul {
+    color: black;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.account ul li {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    cursor: pointer;
+}
+.account ul li:hover {
+    background: var(--main);
+    color: white;
+}
+.account ul li img {margin-left: 1.25rem;}
+.account ul li span {margin-left: 1rem;}
+/* HEADER end */
+*{margin: 0;padding: 0;}
+
+.tengibaygio span {
+    color: var(--main);
+    font-size: 15px;
+}
+
+    .cmt button {
+        color: white;
+        background: var(--main);
+        padding: 8px 16px;
+        border: none;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        float: right;
+        margin-top: 12px;
+    }
+    
+    .cmt .so1 {
+        font-weight: 600;
+    }
+    
+    .cmt hr {
+        border-bottom: 2px solid #62646D;
+        width: 1072px;
+        margin-bottom: 32px;
+    }
+    
+    .cmt input {
+        height: 72px;
+        width: 975px;
+        background: rgba(0, 0, 0, .24);
+        border: 1px solid #62646D;
+        outline: 0;
+        margin-left: 32px;
+        padding: 16px;
+    }
+    
+    .cmt ul {
+        list-style: none;
+    }
+    
+    .cmt input:focus{
+        color: white;
+    }
+    
+    .cmt img {
+        height: 60px;
+        width: 60px;
+        margin-top: -13px;
+    }
+    
+    .cmt {
+        height: 737px;
+        background: rgba(0, 0, 0, .24);
+        transform: translateY(460px);
+        padding: 22px 40px 22px 28px!important;
+    }
+    
+    .nut {
+        transform: translate(284px, 360px);
+    }
+    
+    .nut span {
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 8px;
+    }
+    
+    .nut button {
+        background: var(--main);
+        border: 0;
+        color: white;
+        padding: 8px 16px;
+        margin-left: 8px;
+        height: 36px;
+        line-height: 20px;
+    }
+    
+    .danhgia {
+        height: 90px;
+        background: rgba(0, 0, 0, .24);
+        transform: translateY(332px);
+    }
+    
+    .noidung p.mota {
+        line-height: 28px;
+        margin-top: 24px;
+    }
+    
+    .noidung p.nam {
+        font-size: 18px;
+    }
+    
+    .noidung h3 {
+        font-size: 34px;
+        color: var(--main);
+        font-weight: 700;
+        letter-spacing: 0.4px;
+    }
+    
+    .noidung {
+        height: 248px;
+        transform: translateY(300px);
+        background: rgba(0, 0, 0, .24);
+        padding: 31px 28px 34px 28px!important;
+        letter-spacing: 0.1px;
+    }
+    
+    video {
+        transform: translate(216px, 194px);
+        outline: 0;
+    }
+    /* js */
+    .v, .active-trailer{visibility: visible!important;}
+    .opacity{opacity: 0;}
+    .opacity1{opacity: 0;}
+    /* chung */
+    html{font-size: 16px;}
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        --main: #6dc8b7;
+        --bg: #2c2d33;
+        background-color: #222533!important;
+        overflow-x: hidden;
+        font-family: 'Montserrat',sans-serif!important;
+        color: white!important;
+    }
+    
+    .danhgia h4 {
+        color: var(--main);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 90px;
+        padding-left: 28px;
+    }
+    a {color: white!important;}
+    a:hover {
+        text-decoration: none!important;
+        opacity:1;
+    }
+    /* FOOTER */
+    footer{
+        height: 31.25rem;
+        background: #1A1C27;
+        color: white;
+        font-size: 0.875rem;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+        overflow-y: hidden;
+        transform: translateY(584px);
+    }
+    footer .bentren{height: 18.75rem;}
+    footer .bentren .container .row{padding-top: 4.6875rem;}
+    footer .bentren h6{font-size: 1.25rem;}
+    footer .bentren ul{
+        list-style: none;
+        font-size: 1rem;
+    }
+    footer .bentren ul li{transition: 0.4s;}
+    footer .bentren ul li:hover{color: var(--main)!important;}
+    footer .bentren .logo{
+        width: 17.75rem;
+        margin-top: 1rem;
+    }
+    footer .bentren .logo img{
+        width: 100%;
+        height: 4.25rem;
+    }
+    footer .bentren p.mota{
+        margin-top: 0.875rem;
+        font-weight: 400;
+        font-size: 0.875rem;
+    }
+    footer .benduoi{
+        padding-top: 2rem;
+        height: 11.875rem;
+        font-size: 1rem;
+    }
+    footer .benduoi .container .row a{
+        transition: 0.4s;
+        font-size: 1.125rem!important;
+    }
+    footer .benduoi .container .row a:hover{color: var(--main)!important;}
+    footer .benduoi .container .text{
+        font-size: 0.875rem;
+        font-weight: 400!important;
+    }
+    footer .benduoi .container .social .logo{
+        width: 2.25rem;
+        height: 2.25rem;
+        margin-left: 2.25rem;
+        float: right;
+        border-radius: 2px;
+    }
+    .khoitext {margin-top: 1.25rem;}
+    footer hr {
+        margin-top: 1px!important;
+        border-top: 1px solid #707070!important;
+    }
+
+footer .benduoi{
+    padding-top: 2rem;
+    height: 11.875rem;
+    font-size: 1rem;
+}
+footer .benduoi .container .row a{
+    transition: 0.4s;
+    font-size: 1.125rem!important;
+}
+footer .benduoi .container .row a:hover{color: var(--main)!important;}
+footer .benduoi .container .text{
+    font-size: 0.875rem;
+    font-weight: 400!important;
+}
+footer .benduoi .container .social .logo{
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-left: 2.25rem;
+    float: right;
+    border-radius: 2px;
+}
+.khoitext {margin-top: 1.25rem;}
+footer hr {
+    margin-top: 1px!important;
+    border-top: 1px solid #707070!important;
+}

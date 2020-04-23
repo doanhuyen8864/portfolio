@@ -1,0 +1,522 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FilmBox - Film Reviews - Phim bộ</title>
+    <!-- logo -->
+    <link rel="icon" href="https://i.imgur.com/yWOXyYA.png">
+    <!-- css after -->
+    <link rel="stylesheet" href="after.css">
+    <!-- font montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700i,800i,900i&amp;display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+<body>
+    <header>
+            <div class="top-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <button class="nut1">
+                                <a class="" href="Home.html">Home</a> 
+                            </button>
+                            <button class="nut1">
+                                <a class="" href="news-cine.html">News</a> 
+                            </button>
+                            <button class="nut1">
+                                <a class="" href="review.html">Film Reviews</a> 
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- top header end -->
+            <div class="navigation">
+                <div class="container">
+                    <div class="row">
+    
+                        <div class="col-2 logo">
+                            <a href="Home.html">
+                                <img src="images/logo-02.png" alt="">
+                            </a> 
+                        </div>
+                        
+                        <div class="col-5 menu">
+                            <a href="filter.html">Phim lẻ</a>
+                            <a href="locphimbo.html">Phim bộ</a>
+                            <a href="loctv.html">TV Show</a>
+                            <a href="mylist.html">Phim của tôi</a>
+                        </div>
+                            
+                        <div class="col search">
+                            <i class="fa fa-search"></i>
+                            <input type="text" id="myInput" value="" onkeyup="myFunction()" class="form-control" placeholder="Tên phim, diễn viên..." aria-label="Tên phim, diễn viên..." aria-describedby="basic-addon1">
+                        </div>
+                        
+                        <div class="col profile">
+                            <a href="canhan.html" class="ava">
+                                <img src="images/a1.jpg" alt="">
+                            </a>                     
+                            <a href="canhan.html">Đ. Huyền</a>
+                            <i class="fa fa-angle-down"></i>
+                        </div>
+    
+                    </div>
+                </div>
+                
+            </div>
+            <!-- navigation end -->
+        </header>
+        <!-- header end -->   
+    <div class="theloai">
+        <div class="container">
+            <div class="row">
+                <div class="phim phim1">
+                    <p class="tlphim">PHIM LẺ</p>
+                </div>
+                <div class="phim phim2">
+                    <p class="tlphim">PHIM BỘ</p>
+                </div>
+                <div class="phim phim3">
+                    <p class="tlphim">TV SHOW</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tintuc">
+        <div class="container tin tin1">
+            <div class="row">
+                <div class="col-3 poster">
+                    <img src="unnamed (1).jpg" alt="">
+                </div>
+                <div class="col-9 gthphim">
+                    <p class="tenphim">THE RING</p>
+                    <p class="year">2019</p>
+                    <div class="time">
+                        <div class="tuoi">13+</div>
+                        <p class="tg">90 phút  -  Kinh dị | Tâm lý | Ám ảnh - Thể loại</p>
+                    </div>
+                    <div class="rate">
+                        <div class="diem">6</div>
+                        <p class="danhgia">Điểm trung bình</p>
+                    </div>
+                    <div class="nd">
+                        <p class="nd1 tomtat">Nội dung: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="nd1 daodien">Đạo diễn: Lorem Ipsum</p>
+                        <p class="nd1 actor">Diễn viên: Lorem Ipsum, Lorem ipsum, Dolor sit amet.</p>
+                    </div>
+                    <div class="nut">
+                        <button class="play"><i class="fa fa-video"></i>TRAILER</button>
+                        <button class="like"><i class="fa fa-play"></i>PLAY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="add">
+        <div class="container">
+            <div class="row addcmt">
+                <button class="dx wow bounceInUp" data-wow-delay="0.2s" id="myBtn">
+                    <i class="fa fa-plus-square iconadd"></i>
+                    <p class="textadd">VIẾT REVIEW</p>
+                </button>   
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+    
+                <!-- Modal content -->
+                <div class="comment">
+                        <div class="container cmt">
+                            <div class="row khoiphim">
+                                <div class="col-2">
+                                    <div class="pos">
+                                     <img src="unnamed (1).jpg" alt="" class="posph"> 
+                                    </div>
+                                </div>
+                                <div class="col-10 tenphim">
+                                    <p class="ten">THE RING</p>
+                                    <P class="nam">2019</P>
+                                    <p class="nd ndphim">Nội dung: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia saepe earum voluptatibus, minus ipsa sint illo ipsam adipisci voluptatum assumenda architecto quasi praesentium quaerat doloribus consectetur magni blanditiis nostrum! Optio!</p>
+                                    <p class="nd dd">Đạo diễn: Haruki Yamato</p>
+                                    <p class="nd dv">Diễn viên: Kaito, Yosioka Futaba</p>
+                                </div>
+                            </div>
+                
+                            <div class="row point">
+                                <p class="diem spoil">Điểm của bạn</p>
+                            </div>
+                
+                            <div class="row vote">
+                                <ul class="star">
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                    <li class="1sao"><i class="far fa-star"></i></li>
+                                </ul>
+                            </div>
+                
+                            <div class="row point">
+                                <p class="diem spoil">Review của bạn</p>
+                            </div>
+                
+                            <div class="input">
+                              <input type="email" class="title tit1" name="" id="" aria-describedby="emailHelpId" placeholder="Tiêu đề">
+                
+                              <input type="email" class="title tit2" name="" id="" aria-describedby="emailHelpId" placeholder="Viết review của bạn ở đây">  
+                            </div>
+                
+                            <div class="row point">
+                                <p class="diem spoil">Bài review này có kèm spoiler không?</p>
+                            </div>
+                            
+                            <div class="row cf">
+                                <div class="cf1">
+                                    <i class="far fa-dot-circle icon icon1"></i>
+                                    <p class="yes">Có</p>
+                                </div>
+                                <div class="cf1">
+                                    <i class="far fa-circle icon"></i>
+                                    <p class="yes">Không</p>
+                                </div>
+                            </div>
+                            
+                            <a href="after.html"><button class="post">ĐĂNG TẢI</button></a> 
+                        </div>
+                    </div>
+    
+            </div>
+        
+                    <script>
+                    // Get the modal
+                    var modal = document.getElementById("myModal");
+                    // Get the button that opens the modal
+                    var btn = document.getElementById("myBtn");
+                    // Get the <span> element that closes the modal
+                    var span = document.getElementsByClassName("close")[0];
+                    // When the user clicks the button, open the modal 
+                    btn.onclick = function() {
+                    modal.style.display = "block";
+                    }
+                    // When the user clicks on <span> (x), close the modal
+                    span.onclick = function() {
+                    modal.style.display = "none";
+                    }
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                    }
+                    </script> 
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="thanhngang"></div>
+
+    <div class="slg">
+        <div class="container">
+            <div class="row">
+                <p class="luong wow fadeInUp" data-wow-delay="0.8s">78 Reviews</p>
+                <div class="hide wow fadeInUp" data-wow-delay="0.8s">
+                    <i class="fa fa-check-square vuong"></i>
+                    <p class="an">Ẩn spoiler</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="phancomt wow fadeInUp" data-wow-delay="0.9s">
+        <div class="container">
+            <div class="row khoicmt">
+                <div class="rating">
+                    <i class="fa fa-star iconrate"></i>
+                    <p class="diemso">8 <span class="tren">/10</span></p>
+                </div>
+                <div class="ndrate">
+                    <div class="mobai">
+                        <p class="tieude">Ám ảnh thực sự!!!</p>
+                    </div>
+                    
+                    <div class="user">
+                        <p class="tennguoi">Doan Ngoc Huyen</p>
+                        <p class="date">16/07/2019</p>
+                    </div>
+                    <div class="motarate">
+                        <p class="ndmota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum sunt enim, amet excepturi magni officia laudantium est et nisi, illum, voluptatibus sit quo iure commodi sequi unde ullam. <br> <br> Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto? Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="phancomt wow fadeInUp">
+        <div class="container">
+            <div class="row khoicmt">
+                <div class="rating">
+                    <i class="fa fa-star iconrate"></i>
+                    <p class="diemso">7 <span class="tren">/10</span></p>
+                </div>
+                <div class="ndrate">
+                    <div class="mobai">
+                        <p class="tieude">Oái, con ma bò từ tivi ra, sợ v~, huhu</p>
+                    </div>
+                    
+                    <div class="user">
+                        <p class="tennguoi">Ngo Thu Phuong</p>
+                        <p class="date">10/07/2019</p>
+                    </div>
+                    <div class="motarate">
+                        <p class="ndmota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum sunt enim, amet excepturi magni officia laudantium est et nisi, illum, voluptatibus sit quo iure commodi sequi unde ullam. <br> <br> Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto? Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="phancomt wow fadeInUp">
+        <div class="container">
+            <div class="row khoicmt">
+                <div class="rating">
+                    <i class="fa fa-star iconrate"></i>
+                    <p class="diemso">4 <span class="tren">/10</span></p>
+                </div>
+                <div class="ndrate">
+                    <div class="mobai">
+                        <p class="tieude">Dăm ba con ma, nhảm nhí.</p>
+                    </div>
+                    
+                    <div class="user">
+                        <p class="tennguoi">Joker</p>
+                        <p class="date">08/07/2019</p>
+                    </div>
+                    <div class="motarate">
+                        <p class="ndmota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum sunt enim, amet excepturi magni officia laudantium est et nisi, illum, voluptatibus sit quo iure commodi sequi unde ullam. <br> <br> Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto? Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="phancomt wow fadeInUp">
+        <div class="container">
+            <div class="row khoicmt">
+                <div class="rating">
+                    <i class="fa fa-star iconrate"></i>
+                    <p class="diemso">7.5 <span class="tren">/10</span></p>
+                </div>
+                <div class="ndrate">
+                    <div class="mobai">
+                        <p class="tieude">Đáng xem!</p>
+                    </div>
+                    
+                    <div class="user">
+                        <p class="tennguoi">Vu Anh Quan</p>
+                        <p class="date">16/03/2019</p>
+                    </div>
+                    <div class="motarate">
+                        <p class="ndmota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum sunt enim, amet excepturi magni officia laudantium est et nisi, illum, voluptatibus sit quo iure commodi sequi unde ullam. <br> <br> Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto? Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="phancomt wow fadeInUp">
+        <div class="container">
+            <div class="row khoicmt">
+                <div class="rating">
+                    <i class="fa fa-star iconrate"></i>
+                    <p class="diemso">9<span class="tren">/10</span></p>
+                </div>
+                <div class="ndrate">
+                    <div class="mobai">
+                        <p class="tieude">Chưa bao giờ xem bộ nào kinh dị như này</p>
+                    </div>
+                    
+                    <div class="user">
+                        <p class="tennguoi">Tran Ngoc Anh</p>
+                        <p class="date">16/07/2019</p>
+                    </div>
+                    <div class="motarate">
+                        <p class="ndmota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum sunt enim, amet excepturi magni officia laudantium est et nisi, illum, voluptatibus sit quo iure commodi sequi unde ullam. <br> <br> Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto? Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="phancomt wow fadeInUp">
+        <div class="container">
+            <div class="row khoicmt">
+                <div class="rating">
+                    <i class="fa fa-star iconrate"></i>
+                    <p class="diemso">6.5<span class="tren">/10</span></p>
+                </div>
+                <div class="ndrate">
+                    <div class="mobai">
+                        <p class="tieude">Xem xong khỏi nghe điện thoại số lạ luôn:( </p>
+                    </div>
+                    
+                    <div class="user">
+                        <p class="tennguoi">Doan Ngoc Huyen</p>
+                        <p class="date">16/07/2019</p>
+                    </div>
+                    <div class="motarate">
+                        <p class="ndmota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum sunt enim, amet excepturi magni officia laudantium est et nisi, illum, voluptatibus sit quo iure commodi sequi unde ullam. <br> <br> Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto? Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="phancomt wow fadeInUp">
+        <div class="container">
+            <div class="row khoicmt">
+                <div class="rating">
+                    <i class="fa fa-star iconrate"></i>
+                    <p class="diemso">6<span class="tren">/10</span></p>
+                </div>
+                <div class="ndrate">
+                    <div class="mobai">
+                        <p class="tieude">Sợ quá!!!</p>
+                    </div>
+                    
+                    <div class="user">
+                        <p class="tennguoi">Mai Phương</p>
+                        <p class="date">16/07/2019</p>
+                    </div>
+                    <div class="motarate">
+                        <p class="ndmota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum sunt enim, amet excepturi magni officia laudantium est et nisi, illum, voluptatibus sit quo iure commodi sequi unde ullam. <br> <br> Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto? Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="phancomt wow fadeInUp">
+        <div class="container">
+            <div class="row khoicmt">
+                <div class="rating">
+                    <i class="fa fa-star iconrate"></i>
+                    <p class="diemso">7<span class="tren">/10</span></p>
+                </div>
+                <div class="ndrate">
+                    <div class="mobai">
+                        <p class="tieude">Úi, con maaaaaaa!</p>
+                    </div>
+                    
+                    <div class="user">
+                        <p class="tennguoi">Huyen Thuong</p>
+                        <p class="date">15/07/2018</p>
+                    </div>
+                    <div class="motarate">
+                        <p class="ndmota">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam voluptatum sunt enim, amet excepturi magni officia laudantium est et nisi, illum, voluptatibus sit quo iure commodi sequi unde ullam. <br> <br> Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto? Quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et velit, voluptas dolor itaque nostrum aliquam magnam tempora quisquam odio. Dolor quisquam obcaecati maiores reiciendis sit architecto! Voluptatum dolores natus iusto?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sotrang">
+        <div class="container">
+            <div class="row">
+                <ul class="pagenumber">
+                  <li class="so so1">1</li>
+                  <li class="so so2">2</li>
+                  <li class="so so3">3</li>
+                  <li class="so so4">4</li>
+                  <li class="so so5">5</li>
+                  <li class="cham">...</li>
+                  <li class="so so10">10</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="bentren">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <h6>Hình thức</h6> <br>
+                        <ul>
+                            <a href=""><li>Phim lẻ</li></a> <br>
+                            <a href=""><li>Phim bộ</li></a> <br>
+                            <a href=""><li>TV Show</li></a> 
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h6>Thể loại</h6> <br>
+                        <ul>
+                            <a href=""><li>Hành động</li></a> <br>
+                            <a href=""><li>Lãng mạn</li></a> <br>
+                            <a href=""><li>Hài hước</li></a> 
+                        </ul>
+                    </div>
+
+                    <div class="col-5">
+                        <h6>Quốc gia</h6> <br>
+                        <ul>
+                            <a href=""><li>Việt Nam</li></a> <br>
+                            <a href=""><li>Hàn Quốc</li></a> <br>
+                            <a href=""><li>Âu - Mỹ</li></a> 
+                        </ul>
+                    </div>
+
+                    <div class="col-3 logo">
+                        <img src="images/logo-02.png" alt="">
+                        <p class="mota">Cả thế giới phim nằm trong chiếc điện thoại của bạn!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ben tren end -->
+        <hr>
+        <div class="benduoi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2"><a href="">Giới thiệu</a> </div>
+                    <div class="col-2"><a href="">Liên hệ</a> </div>
+                    <div class="col-2"><a href="">Đối tác</a> </div>
+                    <div class="col-2"><a href="">Điều khoản</a> </div>
+                    <div class="col social">
+                        <a href="https://twitter.com/"><img class="logo" src="images/tw.png" alt=""></a>
+                        <a href="https://www.facebook.com/"><img class="logo" src="images/fb.jpg" alt=""></a>
+                        <a href="https://www.google.com/"><img class="logo" src="images/g.png" alt=""></a>
+                        <a href="https://zalo.me/pc"><img class="logo" src="images/z.jpg" alt=""></a>                      
+                    </div>
+                </div>
+                <div class="khoitext">
+                    <div class="row text">
+                        <div class="col">
+                            Mọi chi phí được tính theo VNĐ
+                        </div>
+                    </div>
+                    <div class="row text">
+                        <div class="col">
+                            Copyright ® 2019 FilmBox All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+</body>
+</html>

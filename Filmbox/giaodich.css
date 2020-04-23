@@ -1,0 +1,455 @@
+.modal-content .nut {
+    transform: translate(316px, -12px);
+}
+.dx {
+    background: none;
+    color: white;
+    border: none;
+    height: 24px;
+    transform: translate(676px, -558px);
+    font-size: 16px;
+    font-style: italic;
+    opacity: .6;
+}
+.dx:focus{outline: 0;}
+.modal-content button {
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    min-width: 64px;
+    margin-left: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 36px;
+}
+
+.modal-content button.outlined {
+    border: 1px solid var(--main);
+    background: none;
+    color: var(--main);
+}
+
+.modal-content button.contained {
+    background: var(--main);
+}
+
+.modal-content p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 4px;
+    color: black;
+}
+
+.modal-content h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1px;
+    color: black;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    margin: auto;
+    width: 560px!important;
+    height: 155px;
+    padding: 20px 16px 8px 24px;
+    margin-top: 160px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+.huy {
+    font-size: 14px;
+    font-style: italic;
+    opacity: .6;
+    margin-top: 20px;
+}
+.khoito .row1 {
+    margin-top: 64px;
+}
+.khoito .col-3 ul li {
+    margin-top: 40px;
+    list-style: none;
+}
+.khoito .col-3 ul {
+    padding: 0;
+}
+.active{font-weight: 600;color: var(--main);}
+hr {
+    border-top: 1px solid rgba(183, 183, 183, .24)!important;
+    margin-top: 28px!important;
+}
+.khoito .x {
+    color: var(--main);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+p.v {
+    margin-top: -10px;
+    margin-bottom: 60px;
+    font-size: 16px!important;
+    color: white!important;
+}
+.khoito input.ten {
+    width: 270px;
+    background: #222533;
+    border: none;
+    color: white;
+    margin-bottom: 14px;
+}
+.opacity1{opacity: 0;}
+.opacity2{opacity: 0;}
+.opacity3{opacity: 0;}
+
+.choice i {
+    cursor: pointer;
+}
+
+.xoa i {
+    cursor: pointer;
+}
+.khoito input:focus{
+    border: 2px solid #3D404C;
+    outline: 0;
+    height: 36px;margin-top: -8px;
+}
+.khoito .thongtin i {
+    color: var(--main);
+    font-size: 14px;
+}
+
+.khoito .menu {
+    transform: translateY(-34px);
+}
+.khoito .thongtin {
+    margin-top: 26px;
+    height: 146px;
+}
+.khoito .avatar img {
+    width: 100px;
+    height: 100px;
+    
+}
+.avatar .col-3{transform: translate(-162px,54px);}
+
+.avatar h6 {
+    font-weight: 600;
+    padding: 0;
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+.avatar ul li {
+    margin-bottom: 16px;
+}
+.avatar button {
+    background: var(--main);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 8px 16px;
+    font-weight: 600;
+    transform: translate(95px, 78px);
+    margin-right: 10px;
+    min-width: 64px;
+    height: 36px;
+}
+.khoito .xoa {
+    transform: translate(16px, 90px);
+    cursor: default;
+}
+.khoito .uncheck {
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    margin-left: -18.5px;
+    margin-top: 3px;
+}
+.khoito .xacnhan {
+    transform: translate(374px, 116px);
+}
+/* CHUNG */
+/* chung */
+html{font-size: 16px;}
+html, body {
+	width: 100%;
+    height: 100%;
+}
+body{
+    --main: #6dc8b7;
+    --bg: #2c2d33;
+    background-color: #222533!important;
+    overflow-x: hidden;
+    font-family: 'Montserrat',sans-serif!important;
+    color: white!important;
+}
+
+p.hsd {
+    font-size: 20px;
+    font-style: italic;
+    opacity: .6;
+    transform: translate(568px, -38px);
+}
+
+.ngay {
+    margin-bottom: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.ls h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--main);
+    margin-top: 64px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.avatar .col-9 {
+    transform: translateY(-34px);
+}
+
+.avatar {
+    height: 200px;
+}
+
+.choice {
+    margin-top: 10px;
+}
+.khoito .t {
+    font-size: 14px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+a {color: white!important;}
+a:hover {
+    text-decoration: none!important;
+    opacity:1;
+}
+/* header */
+header .home {
+    background: var(--main)!important;
+}
+header{
+    height: 9rem;
+    z-index: 9999999999999999999;
+}
+/* top header */
+header .top-header{
+    height: 3rem;
+    background: #222533;
+}
+header .top-header .container .row{float: right;}
+header .top-header .container .row .col button.nut1{
+    font-size: 1rem;
+    height: 3rem;
+    padding: 0 0.875rem;
+    margin-left: -5px;
+    background: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.4s;
+    outline: 0;
+}
+header .nut1:hover {background: var(--main)!important;}
+
+/* navigation */
+header .navigation{
+    background: #1A1C27;
+    height: 6rem;
+}
+header .navigation .container .row{line-height: 6rem;}
+header .navigation .container .row .logo img{
+    height: 2.6875rem;
+    width: 10rem;
+    margin-top: 0.625rem;
+}
+header .navigation .container .row .menu a{
+    font-size: 1rem;
+    margin-left: 0.875rem;
+    font-weight: 600;
+    transition: 0.4s;
+}
+header .navigation .container .row .menu a:hover {color: var(--main)!important;}
+header .navigation .container .row .search{height: 2.75rem;}
+header .navigation .container .row .search i{
+    color: white;
+    font-size: 1rem;
+    transform: rotateY(180deg);
+}
+input.form-control {
+    height: 100%;
+    border: none;
+    box-shadow: 0 0 0 0!important;
+    border-bottom: 0.125rem solid var(--main);
+    border-radius: 0;
+    font-size: 1rem;
+    color: #ffffff!important;
+    opacity: 1;
+    margin-top: -4.25rem;
+    margin-left: -0.125rem;
+    font-weight: 600;
+    background: none;
+    padding-left: 2rem!important;
+}
+input.form-control:focus {
+    background: none;
+    border-bottom: 2px solid #6dc8b7;
+}
+header .navigation .container .row .profile{margin-right: -6rem;}
+header .navigation .container .row .profile .ava{
+    width: 2.125rem;
+    height: 2.125rem;
+    float: left;
+}
+header .navigation .container .row .profile .ava img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: -0.25rem;
+    border: 2px solid var(--main);
+}
+header .navigation .container .row .profile a{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 0.5rem 0 0.25rem;
+}
+header .navigation .container .row .profile i {
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+header .navigation .container .row .profile i:hover {
+    color: var(--main);
+    font-size: 20px;
+    transform: translate(0px, 3px);
+}
+/* account */
+.account {
+    background: white;
+    height: 14rem;
+    width: 11.875rem;
+    visibility: hidden;
+    box-shadow: 0 0 0.5rem 0;
+    transform: translateX(58.375rem);
+}
+.account ul {
+    color: black;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.account ul li {
+    height: 3.5rem;
+    line-height: 3.5rem;
+    cursor: pointer;
+}
+.account ul li:hover {
+    background: var(--main);
+    color: white;
+}
+.account ul li img {margin-left: 1.25rem;}
+.account ul li span {margin-left: 1rem;}
+/* HEADER end */
+/* FOOTER */
+footer{
+    height: 31.25rem;
+    background: #1A1C27;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    overflow-y: hidden;
+    transform: translateY(96px);
+}
+footer .bentren{height: 18.75rem;}
+footer .bentren .container .row{padding-top: 4.6875rem;}
+footer .bentren h6{font-size: 1.25rem;}
+footer .bentren ul{
+    list-style: none;
+    font-size: 1rem;
+    padding: 0;
+}
+footer .bentren ul li{transition: 0.4s;}
+footer .bentren ul li:hover{color: var(--main)!important;}
+footer .bentren .logo{
+    width: 17.75rem;
+    margin-top: 1rem;
+}
+footer .bentren .logo img{
+    width: 100%;
+    height: 4.25rem;
+}
+footer .bentren p.mota{
+    margin-top: 0.875rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+footer .benduoi{
+    padding-top: 2rem;
+    height: 11.875rem;
+    font-size: 1rem;
+}
+footer .benduoi .container .row a{
+    transition: 0.4s;
+    font-size: 1.125rem!important;
+}
+footer .benduoi .container .row a:hover{color: var(--main)!important;}
+footer .benduoi .container .text{
+    font-size: 0.875rem;
+    font-weight: 400!important;
+}
+footer .benduoi .container .social .logo{
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-left: 2.25rem;
+    float: right;
+    border-radius: 2px;
+}
+.khoitext {margin-top: 1.25rem;}
+footer hr {
+    margin-top: 1px!important;
+    border-top: 1px solid #707070!important;
+}
+/* 208 HET CHUNG */
